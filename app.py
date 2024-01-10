@@ -13,8 +13,7 @@ st.markdown(
         <img src="{imagem_url}" alt="Imagem" width="150">
     </div>
     """,
-    unsafe_allow_html=True
-)
+    unsafe_allow_html=True)
 
 # Adicionar o título
 st.title('Igreja Presbiteriana do Caminho')
@@ -127,23 +126,13 @@ st.write("""- Para ofertas e dízimos, seguem os dados bancários da IPC:
 )
 st.write("""- Devocional Terças e Quintas às 21hs :
 
-		https://us04web.zoom.us/j/9507062229?pwd=OVFWY0JudTVIdklnazB1VUNsNGhDUT09""")
+https://us04web.zoom.us/j/9507062229?pwd=OVFWY0JudTVIdklnazB1VUNsNGhDUT09""")
 
 st.write("- Acampamento 13/02/2024, falar com a Sigrid")
 st.write("- Confraternização 05/06/2024, Em breve")
 
-
-
-
-
-
-
-
-
-
-# Adicionar um link usando st.write
-#st.write("[Clique aqui para visitar o site](https://www.exemplo.com)")
-
+st.markdown("## <u>Sugestão 💡</u>", unsafe_allow_html=True)
+st.markdown(f"[Clique para enviar as sugestões]({xxx})")
 
 
 
