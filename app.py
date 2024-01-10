@@ -98,18 +98,18 @@ if autenticado:
     if abertura_detalhes:
     
     # Mostrar texto adicional quando o checkbox está marcado
-    st.write(abertura)
+        st.write(abertura)
     confissao_detalhes = st.checkbox("Confissão: Salmos 131")
     if confissao_detalhes:
     
     # Mostrar texto adicional quando o checkbox está marcado
-    st.write(confissao)
+        st.write(confissao)
     
     palavra_detalhes = st.checkbox("Palavra: Gênesis 11.1-9; 12.1-3 (Pr. Bernardo Cho)")
     if palavra_detalhes:
     
     # Mostrar texto adicional quando o checkbox está marcado
-    st.write(palavra)
+        st.write(palavra)
     
     
     st.markdown("## <u>Louvor 🙌</u>", unsafe_allow_html=True)
