@@ -2,10 +2,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-
-
-import streamlit as st
 
 # URL da imagem
 imagem_url = "https://scontent-iad3-2.xx.fbcdn.net/v/t1.6435-9/58968067_1031332203722900_3181178243449356288_n.jpg?stp=cp0_dst-jpg_e15_p75x225_q65&_nc_cat=103&ccb=1-7&_nc_sid=947906&_nc_ohc=yDzP2UR5kpYAX_3g2NW&_nc_ht=scontent-iad3-2.xx&oh=00_AfA8nnyzZ8mfS9zpT_uksNvwanMyxbWtiomABbe-oGUzZQ&oe=65C61727"
