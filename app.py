@@ -132,7 +132,8 @@ st.write("- Acampamento 13/02/2024, falar com a Sigrid")
 st.write("- Confraternização 05/06/2024, Em breve")
 
 st.markdown("## <u>Sugestão 💡</u>", unsafe_allow_html=True)
-st.markdown(f"[Clique para enviar as sugestões]({"xxx"})")
+sugestao="www.googleforms.com"
+st.markdown(f"[Clique para enviar as sugestões]({sugestao})")
 
 
 
